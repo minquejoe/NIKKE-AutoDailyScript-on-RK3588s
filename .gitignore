@@ -10,6 +10,6 @@ node_modules/
 # sensitive info, see `config_template.py` to create
 config.py
 
-screenShot/
+screenShot/*
 __pycache__
 .vscode
