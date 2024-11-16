@@ -1,0 +1,15 @@
+# Ignore all .log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled files
+*.class
+
+# sensitive info, see `config_template.py` to create
+config.py
+
+screenShot/
+__pycache__
+.vscode
