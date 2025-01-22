@@ -10,6 +10,7 @@ menu = {
     'to_talk.py': {'x': 105, 'y': 1180},
     'to_arena_rookie.py': {'x': 570, 'y': 870},
     'to_arena_special.py': {'x': 570, 'y': 870},
+    'to_simulation.py': {'x': 570, 'y': 870},
 }
 menu_quit = menu
 
@@ -22,12 +23,22 @@ character_talk_reaction = {'x': 570, 'y': 960}
 
 ark = {
     'to_arena_rookie.py': {'x1': 530, 'y1': 820, 'x2': 180, 'y2': 680, 'x3': 600, 'y3': 1120, 'x4': 490, 'y4': 1060, },
-    'to_arena_special.py': {'x1': 530, 'y1': 820, 'x2': 520, 'y2': 680, 'x3': 600, 'y3': 1120, 'x4': 490, 'y4': 1060, }
+    'to_arena_special.py': {'x1': 530, 'y1': 820, 'x2': 520, 'y2': 680, 'x3': 600, 'y3': 1120, 'x4': 490, 'y4': 1060, },
+    'to_simulation.py': {'x': 140, 'y': 660},
 }
 
-login_manual = {'x1': 360, 'y1': 540, 'x2': 360, 'y2': 630, 'x3': 360, 'y3': 750, 'comfirm_x': 613, 'comfirm_y': 678, }
+login_manual = {'x1': 360, 'y1': 540, 'x2': 360, 'y2': 630,
+                'x3': 360, 'y3': 750, 'comfirm_x': 613, 'comfirm_y': 678, }
 
-login_error = {'x': 360, 'y': 830,}
+login_error = {'x': 360, 'y': 830, }
+
+simulation_entry = {'x1': 360, 'y1': 760,
+                    'x2': 540, 'y2': 1080, 
+                    'x3': 360, 'y3': 1150,
+                    'x4': 550, 'y4': 1190, 
+                    'x5': 360, 'y5': 760,
+                    'x6': 350, 'y6': 800, }
+
 
 # login_error = {'x':1200, 'y':700}
 # login_quit = {'x':1175, 'y':680}

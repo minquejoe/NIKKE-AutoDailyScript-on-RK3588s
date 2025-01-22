@@ -13,6 +13,7 @@ while ERR_COUNT:
         print(f"=== Remaining ERR_COUNT: {ERR_COUNT} ===")
         
         time.sleep(seq_retry_wait)
+        game_close()    # 失败太多就关闭游戏重启
     else:
         ERR_COUNT = 0
 
