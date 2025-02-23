@@ -14,6 +14,8 @@ class_to_adb = {
     'item_get': {'func': game_double_tap, 'params': config_positions.item_get},
     'menu': {'func': game_double_tap, 'params': config_positions.menu[os.path.basename(__file__)]},
     'menu_quit': {'func': game_go_back_then_double_tap, 'params': config_positions.menu_quit[os.path.basename(__file__)]},
+
+    'simulation_end': {'func': game_tap_sleep_X2_ShortInv, 'params': config_positions.simulation_end},
 }
 
 class_order = ["login", "menu_annoncement", "menu"]
