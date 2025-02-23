@@ -117,6 +117,9 @@ def game_enter_simulation(x1, y1, x2, y2, x3, y3, x4, y4, x5, y5, x6, y6):
     time.sleep(config.sleep_tap_short_interval)
     game_one_tap(x2, y2)
     time.sleep(config.sleep_tap_short_interval)
+    game_buff_then_simulation(x3, y3, x4, y4, x5, y5, x6, y6)
+
+def game_buff_then_simulation(x3, y3, x4, y4, x5, y5, x6, y6):
     game_double_tap(x3, y3)
     time.sleep(config.sleep_tap_short_interval)
     game_one_tap(x4, y4)
